@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiba Azhari Profile</title>
+    <link rel="stylesheet" href="HIPATYASBOOK.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">HIPATYASBOOK</div>
+        <nav class="nav-menu">
+            <ul class="list">
+                <li><a href="HIPATYASBOOK.html"><img src="images/home icon.svg" alt="Home" class="icon"><span>Accueil</span></a></li>
+                <li><a href="#"><img src="images/marketplace black.svg" alt="Market" class="icon"><span>Marketplace</span></a></li>
+                <li><a href="#"><img src="images/notification black.svg" alt="Notifications" class="icon"><span>Notifications</span></a></li>
+                <li><a href="#"><img src="images/amies black.svg" alt="Invitations" class="icon"><span>Invitations</span></a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="recherche">
+                <img src="images/recherche icon.svg" alt="Search">
+                <input type="text" placeholder="Rechercher...">
+            </div>
+            <img src="images/profil header.jpg" alt="Profile" id="profil-header" onclick="settingMennuToggel()">
+            <img src="images/facebook-messenger-brands-solid (1).svg" alt="" id="messenger-header"  onclick="messengerToggel()">
+
+           
+
+
+           <div class="burger" onclick="toggleMenu()">
+            <!------------------------ Burger menu icon ----------------->
+            <svg id="burger-icon" viewBox="-1.44 -1.44 26.88 26.88" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#000" stroke-width="2"  ></path>
+                <path d="M4 12L20 12" stroke="#000" stroke-width="2"></path>
+                <path d="M4 6L20 6" stroke="#000" stroke-width="2"></path>
+            </svg>
+            <!-------------------- Close icon (hidden initially) --------------->
+            <svg id="close-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#000" stroke-width="2"></path>
+            </svg>
+        </div> 
+        </div>
+          <!-- =========================seting menu========================= -->
+        <div class="setting_menu">
+            <div class="setting-menu-inner">
+                <div  class="user_profile">
+                    <img src="images/profil header.jpg" alt="">
+                    <div>
+                        <p>Hiba Azhari</p>
+                         <a href="profile.html"> Voir votre profil</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user_profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p> Give Feedback</p>
+                         <a href="#"> Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" alt="" class="setting-icon">
+                    <a href="#"> Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" alt="" class="setting-icon">
+                    <a href="#"> Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" alt="" class="setting-icon">
+                    <a href="#"> Desplay & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" alt="" class="setting-icon">
+                    <a href="#"> Lougout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+           
+           
+
+        </div>
+         <!-- ===============Messenger========================= -->
+         <div class="messenger">
+            <div class="messenger-menu">
+                <div class="part1">
+                    <h2>Discussions</h2> 
+                    <img src="images/more.png" alt="">
+                </div>
+                <div class="recherche">
+                    <img src="images/recherche icon.svg" alt="Search">
+                    <input type="text" placeholder="Rechercher dans messenger">
+                </div>
+                <div class="part3">
+                    <a href=""> <button>Messagerie</button></a>
+                    <a href="#"><button id="comm">Communautés</button></a>
+                </div>
+                <div class="invi-messa">
+                    <img src="images/comments-black.svg" alt="">
+                    <p><b>Nouvelle invitatiion par message. <br><span>De Bitzer</span></b></p>
+                    
+                </div>
+                <div class="online_list">
+                    <div class="online_icon">
+                        <img src="images//sheep (1).jpeg" alt="">
+                    </div>
+                   <b> <p>Timmy Timmy</p> <span class="non-lu">Timmy: Bonjour Hiba... <span iclasse="horaire">5min</span></span></b>
+                    </div>
+                    <div class="online_list">
+                        <div class="online_icon">
+                            <img src="images//sheep (2).jpeg" alt="">
+                        </div>
+                        <b><p>Shaun the sheep <br> <span class="lu">Vous: Oui, C'est ma premiere... 6h</span></p></b>
+                    </div>
+                    <div class="online_list">
+                        <div class="online_icon">
+                            <img src="images//timmy mom.jpg" alt="">
+                        </div>
+                        <b><p>Timmy mom <br> <span class="lu">Vous: D'accord Mme..9h</span></p></b>
+                       
+                    </div>
+                    <div class="online_list">
+                        <div class="online_icon">
+                            <img src="images/shaun the sheep.jpg" alt="">
+                        </div>
+                        <b><p>Shaun_Bitzer  <br><span class="non-lu">Shaun: Comment vas tu?.. <span class="horaire">13h</span></span></p></b>
+                    </div>
+            
+            </div>
+         </div>
+        
+    </header>
+<!-- ============================profile page============================= -->
+    <div class="profile-container">
+        <img src="images/couverture2.jpg" alt="" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+               <div class="pd-row">
+                <img src="images/profil header.jpg" alt="" class="pd-img">
+                <div>
+                    <h3>Hiba Azhari</h3>
+                    <p>42 Ami(e)s</p>
+                    <img src="images/timmy mom.jpg" alt="">
+                    <img src="images/shaun the sheep.jpg" alt="">
+                    <img src="images/Shaun the Sheep__Sherly.jpg" alt="">
+                    <img src="images/cake design.jpg" alt="">
+                </div>
+               </div> 
+            </div>
+            <div class="pd-right">
+                 <button type="button"> <img src="images/pen-to-square-regular.svg" alt="">Publier</button>
+                 <button type="button"> <img src="images/plus-solid.svg" alt="">Storie</button>
+                 <br>
+                 <a href="#"> <img src="images/more.png" alt=""></a>
+
+            </div>
+        </div>
+        <div class="profile-info" class="intro-flex">
+            <div class="info-col">
+                  <div class="profile-intro">
+                    <h3>Bio</h3>
+                    <p class="intro-text"> Winners make goal and losers make excuses. 💪🎯</p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/briefcase-solid.svg" alt=""> Etudiée a l'OFPPT</li>
+                        <li> <img src="images/house-solid (1).svg " alt="">Habite a Casablanca</li>
+                        <li> <img src="images/location-dot-solid (1).svg" alt="">De Casablanca</li>
+                        <li> <img src="images/heart-solid.svg" alt="">Célibataire</li>
+                    </ul>
+                  </div>
+                
+                  <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#"> Tout les photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="images/img1.jpg" alt=""></div>
+                        <div><img src="images/img2.jpg" alt=""></div>
+                        <div><img src="images/img3.jpg" alt=""></div>
+                        <div><img src="images/img4.jpg" alt=""></div>
+                        <div><img src="images/img5.jpg" alt=""></div>
+                        <div><img src="images/img9.jpg" alt=""></div>
+                        
+                    </div>
+                  </div>
+
+                  <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Ami(e)s</h3>
+                        <a href="#"> Tout les ami(e)s</a>
+                    </div>
+                    <p>42</p>
+                    <div class="freind-box">
+                        <div><img src="images/timmy mom.jpg" alt=""><p>Timmy mom</p></div>
+                        <div><img src="images/sheep (1).jpeg" alt="">Timmy</div>
+                        <div><img src="images/shaun the sheep.jpg" alt="">The sheep</div>
+                        <div><img src="images/cake design.jpg" alt="">Cake designer</div>
+                        <div><img src="images/chiarelli2.jpg" alt="">Chiarelli1</div>
+                        <div><img src="images/Shaun the Sheep__Sherly.jpg" alt="">Chiarelli2</div>
+                        <div><img src="images/img6.jpg" alt="">Student</div>
+                        <div><img src="images/img7.jpg" alt="">Baby</div>
+                        <div><img src="images/img8.jpg" alt="">Animals</div>
+                        
+                    </div>
+                  </div>
+
+
+
+
+
+            </div>
+            <div class="post-col">
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile user-post">
+                            <img src="images/profil header.jpg" alt="">
+                            <div>
+                                <p>Hiba Azhari</p>
+                                <span>jun 18 2024 , 9:43 Am</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="post_text">
+                       
+                    </p>
+                    <img src="images/img9.jpg" alt="" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                          <div class="like"><img src="images/j'aime.svg" alt=""> <span >120</span></div>
+                            <div class="comment-share">
+                                <div class=" comn-post"><span>65</span><img src="images/commentaire.svg" alt=""></div>
+                            <div class="share-post"><span>130</span><img src="images/partager gris.svg" alt=""></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile user-post">
+                            <img src="images/profil header.jpg" alt="">
+                            <div>
+                                <p>Hiba Azhari</p>
+                                <span>March 2 2024 , 14:37 Am</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="post_text">
+                       
+                    </p>
+                    <img src="images/img4.jpg" alt="" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                          <div class="like"><img src="images/j'aime.svg" alt=""> <span >120</span></div>
+                            <div class="comment-share">
+                                <div class=" comn-post"><span>65</span><img src="images/commentaire.svg" alt=""></div>
+                            <div class="share-post"><span>130</span><img src="images/partager gris.svg" alt=""></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile user-post">
+                            <img src="images/timmy mom.jpg" alt="">
+                            <div>
+                                <p>Timmy mom</p>
+                                <span>Des 9 2023 , 12:00 pm</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img src="images/img5.jpg" alt="" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                          <div class="like"><img src="images/j'aime.svg" alt=""> <span >120</span></div>
+                            <div class="comment-share">
+                                <div class=" comn-post"><span>65</span><img src="images/commentaire.svg" alt=""></div>
+                            <div class="share-post"><span>130</span><img src="images/partager gris.svg" alt=""></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <p>Copyright 2024-HIPATYASBOOK</p>
+    </div>
+
+    <script src="HIPATYASBOOK.js"></script>
+</body>
+
+</html>
